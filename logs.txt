@@ -1,0 +1,11 @@
+INFO: Service initialized
+DEBUG: Debugging mode enabled
+WARNING: Deprecated API used
+ERROR: Payment processing failed
+ERROR: Invalid card details
+Exception: ValueError occurred
+INFO: User logged out
+CRITICAL: System crash detected
+ERROR: Unable to restart service
+WARNING: Configuration file missing
+INFO: Backup completed
