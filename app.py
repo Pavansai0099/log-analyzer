@@ -15,10 +15,30 @@ texts = [
     "disk space low",
     "user login",
     "timeout error",
-    "cpu high"
+    "cpu high",
+    "service crashed",
+    "system failure",
+    "restart failed",
+    "memory warning",
+    "user logout",
+    "invalid input error",
+    "connection lost"
 ]
 
-labels_train = ["ERROR", "WARNING", "INFO", "ERROR", "WARNING"]
+labels_train = [
+    "ERROR",
+    "WARNING",
+    "INFO",
+    "ERROR",
+    "WARNING",
+    "CRITICAL",
+    "CRITICAL",
+    "ERROR",
+    "WARNING",
+    "INFO",
+    "ERROR",
+    "ERROR"
+]
 
 vectorizer = CountVectorizer()
 X = vectorizer.fit_transform(texts)
